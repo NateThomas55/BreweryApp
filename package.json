@@ -1,8 +1,0 @@
-{
-  "name": "brewery-app",
-  "version": "1.0.0",
-  "description": "web app to find new beers",
-  "main": "index.js",
-  "author": "Nathaniel Thomas",
-  "license": "MIT"
-}
