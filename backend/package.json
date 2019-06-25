@@ -1,11 +1,24 @@
 {
-  "name": "clear",
+  "name": "beer-app",
   "version": "1.0.0",
   "description": "web app to find new beers",
   "main": "index.js",
   "author": "Nathaniel Thomas",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon -r esm src/index.js"
+  },
   "devDependencies": {
     "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.5.0",
+    "apollo-server": "^2.6.3",
+    "colors": "^1.3.3",
+    "dotenv": "^8.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1",
+    "nodemon": "^1.19.1"
   }
 }
